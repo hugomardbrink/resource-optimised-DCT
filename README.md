@@ -7,5 +7,5 @@ Therefore, this project places emphasis on energy efficient configurations in co
 
 ## To build:
 ```bash
-riscv64-unknown-elf-gcc -march=rv64gcv main.c -lm -o dct2d_riscv.out 
+riscv64-unknown-elf-gcc -march=rv64imadcv -mabi=lp64d main.c -lm -o dct2d_riscv.out  
 ```
